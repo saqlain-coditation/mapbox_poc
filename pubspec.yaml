@@ -8,9 +8,12 @@ environment:
 
 dependencies:
   cached_network_image: ^3.4.1
+  cross_file: ^0.3.4+2
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.10+1
+  http: ^1.2.2
+  http_parser: ^4.0.2
   mapbox_maps_flutter: ^2.2.1
   permission_handler: ^11.3.1
 

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart' hide Size;
 
 import 'map_view.dart';
-import 'methods/lib_methods.dart';
-import 'task_handler/task_handler.dart';
+import 'utils/methods/lib_methods.dart';
+import 'utils/task_handler/task_handler.dart';
 
 class GlobeView extends StatefulWidget {
   static const sandGlobe = "mapbox://styles/saqlain-coditation/cm17tstxm008m01pcamhx3ek9";

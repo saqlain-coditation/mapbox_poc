@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
-import 'package:testing/permission_services.dart';
-import 'package:testing/value_transitioned_builder.dart';
+import 'package:testing/utils/permission_services.dart';
+import 'package:testing/utils/value_transitioned_builder.dart';
 
 import 'globe_view.dart';
 import 'map_view.dart';
@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
       1: GlobeView(),
     };
     return ValueTransitionedBuilder<int>(
-      initialValue: 1,
+      initialValue: 0,
       builder: (context, index, __, update, _) {
         return Scaffold(
           body: views[index]!,
